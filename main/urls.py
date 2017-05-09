@@ -5,10 +5,10 @@ from django.contrib import admin
 from main import views
 
 urlpatterns = [
-    url(r'^', views.about, name='main'),
     url(r'^about', views.about, name='about'),
-    url(r'^beer', views.about, name='beer'),
-    url(r'^contact', views.about, name='contact'),
-    url(r'^food', views.about, name='food'),
-    url(r'^reservation', views.about, name='reservation')
+    url(r'^beer', views.beer, name='beer'),
+    url(r'^contact', views.contact, name='contact'),
+    url(r'^food', views.food, name='food'),
+    url(r'^reservation', views.reservation, name='reservation'),
+url(r'^', views.index, name='main')
 ]

@@ -1,109 +1,83 @@
+{% load staticfiles %}
 <!DOCTYPE html >
-
 <html>
 
 <head>
-	<title>Contatc Us - Website Template</title>
-	<meta  charset=iso-8859-1" />
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
-	
+    <title>Contatc Usss - Website Template</title>
+    <meta charset="utf-8">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    
-	<div id="background">
-	  <div class="page">
-	       <div id="header">
-		          <ul class="navigation">
-				  <li><a href="food.html">Наша еда</a></li>
-				  <li><a  href="beer.html">Наше пиво</a></li>
-				  </ul>
-				  
-				  <a id="logo" href="index.html"><img src="images/logo2.jpg" width="276" height="203" alt="Steak House" title="Steak House"></a>
-				  
-				  <ul id="navigation">
-				  <li><a href="reservation.html">Резервация</a></li>
-				  <li><a class="active" href="contact.html">Контакты</a></li>
-				  </ul>
-		   </div>
-		   <div id="body">
-		   
-		    
-				
-			   
-			    <div class="content">
-				   <div class="body">
-				   
-				        <h2>Контакты</h2>
-						
-						
-						
-						
-						<ul>
-							<li>
-								
-								
-									<h4>
-										
-									</h4>
-								
-								
-								<p>
-										
-								</p>
-							</li>
-						
-							
-					    </ul>
-				       
-					   <table>
-						<tr>
-							 <td><span>Расположение</span></td><td>: Пр.Победы,49</td>
-						</tr>
-						<tr>
-							 <td><span>Время работы</span></td><td>: С понедельника по воскресенье : 10:30 - 21:30</td>
-						</tr>
-						<tr>
-							 <td><span>Наш номер</span></td><td>: (717) 232-3706,(717) 232-3553</td>
-						</tr>
-						<tr>
-							 <td><span>E-mail</span></td><td>: ЫЫЫcompany@mail.ru</td>
-						</tr>
-						<tr>
-							 <td><span>Еще одна строка</span></td><td>: ХЗ что в ней писать, но без нее не красиво</td>
-						</tr>
-					   </table>
-				       
-				   
-				   </div>
-				</div>	
-			   
-		   </div>
-		   
-		   
-		   
-		   
-		   <div id="footer">
+    <div id="background">
+        <div class="page">
+            <div id="header">
+                <ul class="navigation">
+                    <li><a href="food.html">Наша еда</a></li>
+                    <li><a href="beer.html">Наше пиво</a></li>
+                </ul>
+                <a id="logo" href="index.html"><img src="{% static 'images/logo2.jpg' %}" width="276" height="203" alt="Steak House" title="Steak House"></a>
+                <ul id="navigation">
+                    <li><a href="reservation.html">Резервация</a></li>
+                    <li><a class="active" href="contact.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div id="body">
+                <div class="content">
+                    <div class="body">
+                        <h2>Контакты</h2>
+                        <ul>
+                            <li>
+                                <h4>
+								ОТДЕЛ 
+								</h4>
+                                <p>
+                                </p>
+                            </li>
+                        </ul>
+                        <table>
+                            <tr>
+                                <td><span>Расположение</span></td>
+                                <td>: Пр.Победы,49</td>
+                            </tr>
+                            <tr>
+                                <td><span>Время работы</span></td>
+                                <td>: С понедельника по воскресенье : 10:30 - 21:30</td>
+                            </tr>
+                            <tr>
+                                <td><span>Наш номер</span></td>
+                                <td>: (717) 232-3706,(717) 232-3553</td>
+                            </tr>
+                            <tr>
+                                <td><span>E-mail</span></td>
+                                <td>: ЫЫЫcompany@mail.ru</td>
+                            </tr>
+                            <tr>
+                                <td><span>Еще одна строка</span></td>
+                                <td>: ХЗ что в ней писать, но без нее не красиво</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
                 <ul>
-					<li class="first">
-					     <ul>
-							<li><a href="index.html">Домой</a></li>	
-							<li><a href="about.html">О нас</a></li>	
-							<li><a href="menu.html">Наши бдюда</a></li>	
-							<li><a href="beer.html">Наше пиво</a></li>	
-							<li><a href="contact.html">О нас</a></li>
-						 </ul>
-					</li>
-					
-					<li class="last">
-				        <span> &copy; Все права защищены.</span> 	
-					</li>
-				</ul>		       
-			   
-		   </div>
-		
-	  </div> 
-     </div>	  
-	
+                    <li class="first">
+                        <ul>
+                            <li><a href="index.html">Домой</a></li>
+                            <li><a href="about.html">О нас</a></li>
+                            <li><a href="menu.html">Наши бдюда</a></li>
+                            <li><a href="beer.html">Наше пиво</a></li>
+                            <li><a href="contact.html">О нас</a></li>
+                        </ul>
+                    </li>
+                    <li class="last">
+                        <span> &copy; Все права защищены.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
