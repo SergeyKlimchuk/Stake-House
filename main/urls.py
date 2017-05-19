@@ -10,5 +10,6 @@ urlpatterns = [
     url(r'^contact', views.contact, name='contact'),
     url(r'^food', views.food, name='food'),
     url(r'^reservation', views.reservation, name='reservation'),
-url(r'^', views.index, name='main')
+    url(r'^index2', views.index2),
+    url(r'^', views.index, name='main')
 ]
