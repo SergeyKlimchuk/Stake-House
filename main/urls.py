@@ -11,5 +11,5 @@ urlpatterns = [
     url(r'^food', views.food, name='food'),
     url(r'^reservation', views.reservation, name='reservation'),
     url(r'^index2', views.index2),
-    url(r'^', views.index, name='main')
+    url(r'^', views.main, name='main')
 ]

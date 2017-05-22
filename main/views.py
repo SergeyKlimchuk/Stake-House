@@ -17,7 +17,7 @@ def food(request):
     return render(request, 'main/food.html')
 
 
-def index(request):
+def main(request):
     return render(request, 'main/index.html')
 
 
